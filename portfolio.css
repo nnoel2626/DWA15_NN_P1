@@ -36,16 +36,14 @@ font-family:tahoma,verdana,sans-serif;
 font-size:180%;
 font-variant:small-caps;
 font-weight:normal;
-letter-spacing: 1.1px;
-line-height:1.5;
-padding-top:8px;
+
 }
 h2 {
 font-family: tahoma,arial,verdana,sans-serif;
-font-size: 200%;
-font-weight: 400;
-line-height: 1.4em;
-letter-spacing: 1.8px;
+font-size: 150%;
+font-weight: 350;
+line-height: 1.2em;
+letter-spacing: 1.1px;
 }
 h3 {
 font-size:120%;
@@ -57,28 +55,31 @@ font-size:100%;
 ul li{list-style: square; font:verdana,sans-serif, serif;}
 a, a:link, a:visited{text-decoration:none;color: #F00;}
 a:hover{color:#cccc33;}
+
 body{ background-color: #FFF;
 color:#555;
 font-family:tahoma,arial,verdana,sans-serif;
-font-size:14px;
-line-height:18px;
-margin:80px auto 0pt;
-padding:0pt;
-margin-bottom:100px;
-text-align:left;
-position:relative;
-top:-64px;
-}
-/*CONTAINER/CONTENT */
-#container{	width: 1000px; height: auto;
-border: 1px dotted #333;
-margin: 10p 10 10 10;
+font-size:12px;text-align:left;position:relative;}
+
+.banner h1 {text-align: center;
+			letter-spacing: 1.5px;
+			line-height:1.5;
+			padding-top:25px;
+			font-size: 200%;
+			font-weight: 350;
+			}
+/*CONTAINER/CONTENT */   
+ #container{width: 850px; 
+			height: auto;
+			margin: 0 auto; 
+			text-align: left;
+			border: 1px dotted #333;
 }	
-h1.banner {text-align: left}
+
 #personal_info {background-color: #cccc33;
-width: 350px;
-height: 250px;
-position: absolute;
+				width: 350px;
+				height: 250px;
+			position: absolute;
 top: 5px; left: 3px;
 border: #0000cc 2px dashed;}
 #photo {Position:absolute;
